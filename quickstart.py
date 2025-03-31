@@ -3,8 +3,8 @@ from instapy import InstaPy
 from instapy import smart_run
 
 # login credentials
-insta_username = ''
-insta_password = ''
+insta_username = 'digitalnetworkingai'
+insta_password = 'Brotherai12'
 
 comments = ['Nice shot! @{}',
         'I love your profile! @{}',
@@ -19,8 +19,8 @@ comments = ['Nice shot! @{}',
 
 # get an InstaPy session!
 # set headless_browser=True to run InstaPy in the background
-session = InstaPy(username=insta_username,
-                  password=insta_password,
+session = InstaPy(username=digitalnetworkingai,
+                  password=Brotherai12,
                   headless_browser=False)
 
 with smart_run(session):
